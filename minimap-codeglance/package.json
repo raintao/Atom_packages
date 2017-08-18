@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+        "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-117319-11212-1uwz9sq.5g23dte29"
+    ]
+  ],
+  "_from": "..\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+  "_id": "minimap-codeglance@0.4.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/minimap-codeglance",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+    "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+  "_shasum": "8024b2e4c331c821c178ddb40a6d4fbcb3a529d5",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117319-11212-5gt6xf.t1owimgqfr\\package.tgz",
+  "_where": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-117319-11212-1uwz9sq.5g23dte29",
+  "bugs": {
+    "url": "https://github.com/olmokramer/atom-minimap-codeglance/issues"
+  },
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "object-assign-shim": "^1.0.0"
+  },
+  "description": "Codeglance like functionality for Atom",
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.6.0"
+  },
+  "engines": {
+    "atom": ">=1.1.0"
+  },
+  "homepage": "https://github.com/olmokramer/atom-minimap-codeglance#readme",
+  "license": "MIT",
+  "main": "./lib/main.js",
+  "name": "minimap-codeglance",
+  "optionalDependencies": {},
+  "readme": "# minimap-codeglance package\n\nCodeglance for Atom as a [minimap](https://atom.io/packages/minimap) plugin. Shows the code that's under the mouse cursor when hovering the minimap.\n\n![Minimap codeglance](https://raw.githubusercontent.com/olmokramer/atom-minimap-codeglance/master/screencast.gif)\n\n# styling the codeglance element\n\nYou can style the codeglance element from your stylesheet (`~/.atom/styles.less`) like this:\n\n```less\nminimap-codeglance {\n  // see through the codeglance element\n  opacity: .8;\n  // change the shadow of the element\n  box-shadow: 0 0 10px rgba(0, 0, 0, .5);\n  // etc.\n}\n```\n\n# todo\n\n- [ ] Better support for huge files\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olmokramer/atom-minimap-codeglance.git"
+  },
+  "version": "0.4.6"
+}

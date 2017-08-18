@@ -1,0 +1,10 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Run In Browser', 'command': 'rib:run-in-browser'
+    ]
+  }
+]

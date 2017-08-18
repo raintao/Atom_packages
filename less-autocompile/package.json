@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117124-6256-14gjq7c\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117124-6256-14gjq7c\\package.tgz",
+        "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117124-6256-14gjq7c\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-117124-6256-1q8u3n1"
+    ]
+  ],
+  "_from": "..\\d-117124-6256-14gjq7c\\package.tgz",
+  "_id": "less-autocompile@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/less-autocompile",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117124-6256-14gjq7c\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117124-6256-14gjq7c\\package.tgz",
+    "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117124-6256-14gjq7c\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117124-6256-14gjq7c\\package.tgz",
+  "_shasum": "81cb8f78012ab2afc7482da80c40cc500ac3e2c7",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117124-6256-14gjq7c\\package.tgz",
+  "_where": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-117124-6256-1q8u3n1",
+  "bugs": {
+    "url": "https://github.com/lohek/less-autocompile/issues"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "less": "^2.3.1",
+    "mkdirp": "^0.5.0"
+  },
+  "description": "Auto compile LESS",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lohek/less-autocompile#readme",
+  "license": "MIT",
+  "main": "./lib/less-autocompile",
+  "name": "less-autocompile",
+  "optionalDependencies": {},
+  "readme": "# less-autocompile package\n\nAuto compile LESS file on save.\n\n---\n\nAdd the parameters on the first line of the LESS file.\n\n```\nout (string):  path of CSS file to create\nsourcemap (bool): create sourcemap file\ncompress (bool): compress CSS file\nmain (string): path to your main LESS file to be compiled\n```\n\n## Example\nless/styles.less\n```scss\n// out: ../css/styles.css, sourcemap: true, compress: true\n\n@import \"my/components/select.less\";\n```\n\nless/my/components/select.less\n```scss\n// main: ../../styles.less\n\n.select {\n  height: 100px;\n  width: 100px;\n}\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lohek/less-autocompile.git"
+  },
+  "version": "1.0.0"
+}

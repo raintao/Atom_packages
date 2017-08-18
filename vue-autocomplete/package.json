@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117213-17876-y48hm7\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117213-17876-y48hm7\\package.tgz",
+        "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117213-17876-y48hm7\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-117213-17876-ehtwlr"
+    ]
+  ],
+  "_from": "..\\d-117213-17876-y48hm7\\package.tgz",
+  "_id": "vue-autocomplete@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/vue-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117213-17876-y48hm7\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117213-17876-y48hm7\\package.tgz",
+    "spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117213-17876-y48hm7\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117213-17876-y48hm7\\package.tgz",
+  "_shasum": "18137cc593a15885808b72d8979ff4352883bc37",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\d-117213-17876-y48hm7\\package.tgz",
+  "_where": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\apm-install-dir-117213-17876-ehtwlr",
+  "author": {
+    "name": "Eduardo Alves"
+  },
+  "bugs": {
+    "url": "https://github.com/ealves-pt/atom-vue-autocomplete/issues"
+  },
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0"
+  },
+  "description": "Vue.js 1.0+ autocomplete for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ealves-pt/atom-vue-autocomplete#readme",
+  "keywords": [
+    "vue",
+    "autocomplete",
+    "provider"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "vue-autocomplete",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# Atom autocomplete for Vue.js\n\n> Package under active development inspired in\n> * [atom-reac-native-autocomplete](https://github.com/TOP-Chao/atom-react-native-autocomplete)\n> * [autocomplete-css](https://github.com/atom/autocomplete-css)\n> * [autocomplete-html](https://github.com/atom/autocomplete-html)\n\n### Supported tags\n\n* partial\n* slot\n\n### Supported attributes\n\n* v-text\n* v-html\n* v-if\n* v-show\n* v-else\n* v-for\n* v-on\n* v-bind\n* v-model\n* v-ref\n* v-el\n* v-pre\n* v-cloak\n\n### Contribution\n\nIs always welcome :D\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ealves-pt/atom-vue-autocomplete.git"
+  },
+  "version": "0.1.1"
+}
